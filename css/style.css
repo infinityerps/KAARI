@@ -29,6 +29,12 @@ src: url("../fonts/BalooChettan-Regular.ttf");
 @import url(jquery-ui.css);
 @import url(nice-select.css);
 
+@font-face {
+    font-family: 'nfananiasregular'; /* Choose a name for your font family */
+    src: url('font/nf-ananias-regular.ttf') format('truetype'); /* Adjust the path to your .ttf file */
+    font-weight: normal; /* Optional: Define font weight if multiple weights exist */
+    font-style: normal;  /* Optional: Define font style if multiple styles exist */
+}
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
 * {
@@ -43,7 +49,7 @@ html {
 body {
      color: #666666;
      font-size: 14px;
-     font-family:Poppins;
+     font-family:nfananiasregular;
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
@@ -462,7 +468,7 @@ button {
     padding-bottom: 90px;
 }
 .founders_section{
-    background-color: #f0a472;
+    background-color: #d7cec9;
 }
 .image_1{
     width: 100%;
@@ -839,7 +845,7 @@ a:hover {
     width: 100%;
     float: left;
     /* background-image: url(../images/contact-bg.png); */
-    background-color: #f0a472;
+    background-color: #d7cec9;
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -1047,7 +1053,7 @@ textarea#comment::placeholder {
 
 #header-carousel .carousel-item::before {
     content: '';
-    background: rgba(63, 105, 170, .5);
+    background: rgb(215, 206, 201,0.5);
     position: absolute;
     height: 100%;
     width: 100%;
@@ -1114,7 +1120,7 @@ textarea#comment::placeholder {
     width: 100%;
     height: 60px;
     padding: 15px;
-    background: #f0a472;
+    background: #d7cec9;
     font-size: 32px;
     line-height: 1;
 }
